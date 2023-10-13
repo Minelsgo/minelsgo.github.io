@@ -1,0 +1,140 @@
+
+    :root{
+        --accent-color: rgb(0, 255, 0);
+        --font-size: 30px;
+        --font-color: white;
+        --background-color: #2b2b2b;
+    }
+    body {
+        background-color: var(--background-color);
+        margin-top: 50px;
+    }
+    html {
+        color: white;
+        font-size: var(--font-size);
+        margin-left: 50px;
+    }
+    h1 {
+        color: var(--accent-color);
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 70px;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 0px;
+        
+    }
+    h2{
+        color: var(--accent-color);
+    }
+    a {
+        color: var(--accent-color);
+        text-decoration: none;
+        padding: 10px;
+        background-color: rgb(37, 37, 37);
+        
+    }
+    a:hover {
+        color: rgb(161, 255, 161);
+    }
+    input{
+        background-color: rgb(36, 36, 36);
+        
+        font-size: var(--font-size);
+        border-width: 4px;
+        border-color: var(--accent-color);
+        border-style: solid;
+        border-radius: 10px;
+        color: var(--font-color);
+        padding-left: 10px;
+        
+    }
+    input:focus{
+        outline: none;
+        border-color: white;
+    }
+    td{
+        padding-right: 10px;
+        padding-bottom: 10px;
+    }
+    .dummelinks {
+        color: rgb(255, 87, 87);
+    }
+    .dummelinks:hover {
+        color: black;
+        font-weight: 50px;
+    }
+    /* Basically Copied from https://www.w3schools.com/howto/howto_css_custom_checkbox.asp */
+    /* Customize the label (the container) */
+.container {
+    display: block;
+    position: relative;
+    padding-left: 50px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    font-size: var(--font-size);
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  /* Hide the browser's default radio button */
+  .container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  
+  /* Create a custom radio button */
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: var(--font-size);
+    width: var(--font-size);
+    background-color: rgb(36, 36, 36);
+    border-width: 4px;
+    border-color: var(--accent-color);
+    border-style: solid;
+    border-radius: 50%;
+  }
+  
+  /* On mouse-over, add a grey background color */
+  .container:hover input ~ .checkmark {
+    border-color:white;
+  }
+  
+  /* When the radio button is checked, add a blue background 
+  .container input:checked ~ .checkmark {
+    background-color: #2196F3;
+  }*/
+  
+  /* Create the indicator (the dot/circle - hidden when not checked) */
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  /* Show the indicator (dot/circle) when checked */
+  .container input:checked ~ .checkmark:after {
+    display: block;
+  }
+  
+  /* Style the indicator (dot/circle) */
+  .container .checkmark:after {
+    top: 5px;
+    left: 5px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: var(--accent-color);
+  }
+
+  .container:hover .checkmark:after {
+    background: white;
+  }
+  
