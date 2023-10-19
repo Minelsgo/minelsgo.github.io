@@ -11,7 +11,7 @@ function Kotenlernenistwichtig(input){
 }
 Kotenlernenistwichtig(input);
 const qualitätdieserwebseite = 'beschissen';
-const wiebeschissenistdiesewebseite = true;
+// const wiebeschissenistdiesewebseite = true;
 let wasauchimmerdasistwasichhiergeradedefiniere = {
     a:1,
     b:"a",
@@ -44,8 +44,8 @@ var waffel = Infinity*Infinity;
 console.log(waffel);
 var timer = setInterval(calc, 1)
 function calc() {
-    v1=Number(document.querySelector("#v1").value)
-    v2=Number(document.querySelector("#v2").value)
+    var v1=Number(document.querySelector("#v1").value)
+    var v2=Number(document.querySelector("#v2").value)
     var result=NaN;
     switch (readradio("op")){
         case "Add": result=v1+v2; break;
@@ -65,7 +65,7 @@ function calc() {
 
 }
 function readradio(name){
-    arrayofradios=document.getElementsByName(name);
+    var arrayofradios=document.getElementsByName(name);
     for (let i = 0; i < arrayofradios.length; i++) {
         if (arrayofradios[i].checked){
             return arrayofradios[i].value;
