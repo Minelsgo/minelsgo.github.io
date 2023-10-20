@@ -42,7 +42,7 @@ array.pop();
 console.log(array);
 var waffel = Infinity*Infinity;
 console.log(waffel);
-var timer = setInterval(calc, 1)
+setInterval(calc, 1)
 function calc() {
     var v1=Number(document.querySelector("#v1").value)
     var v2=Number(document.querySelector("#v2").value)
