@@ -936,7 +936,7 @@ function create_board(){
 var body = document.getElementById("board_space");
 var board = document.createElement('table');
 board.id="table";
-var width = x[1] * x[3] * 35 + x[1] * 6 + 4;
+var width = x[1] * x[3] * 30 + x[1] * 6 + 4;
 width = String(width)+"px";
 board.setAttribute("style", "width: "+width+"; border: 1px solid black;");
 for (var i = 0; i < mines.length; ++i)
