@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Errate die Zahl!</title>
+</head>
+<body>
+    <link rel="stylesheet" href="../main.css">
+    <h1>Errate die Zahl!</h1>
+     <br>
+    Errate die Zahl zwischen 0 und <input type="number" id="max" onkeydown="if(event.keyCode == 13) { start(); }"> :&nbsp; <button onclick="start()">Lets Go</button><br>
+    <br>
+    <div id="o"></div><br>
+    <br>
+    <div id="prompt"></div>
+</body>
+<script src="a10.js"></script>
