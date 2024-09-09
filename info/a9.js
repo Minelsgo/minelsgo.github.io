@@ -5,4 +5,7 @@ for (let index = 0; index < numbers.length; index++) {
     s += numbers[index]*(10-index);
 }
 x = 11-s%11
-console.log(x)
+if (x==10){
+    x="X"
+}
+console.log(n+x)

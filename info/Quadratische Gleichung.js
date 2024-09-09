@@ -1,7 +1,7 @@
 a =4
 b = 100
 c = 2
-d = (b^2)-(4*a*c)
+d = (b**2)-(4*a*c)
 if (d < 0){
     console.log("Es gibt keine Lösung")
 }
