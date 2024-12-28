@@ -1,9 +1,9 @@
 const cacheName = "RoboKitty-Verzweigungnen-0.0";
 const contentToCache = [
-    "Build/PWA?.loader.js",
-    "Build/PWA?.framework.js.br",
-    "Build/PWA?.data.br",
-    "Build/PWA?.wasm.br",
+    "Build/jetzt PWA.loader.js",
+    "Build/jetzt PWA.framework.js.br",
+    "Build/jetzt PWA.data.br",
+    "Build/jetzt PWA.wasm.br",
     "TemplateData/style.css"
 
 ];
