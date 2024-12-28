@@ -1,9 +1,9 @@
 const cacheName = "RoboKitty-Verzweigungnen-0.0";
 const contentToCache = [
-    "Build/uncompressed.loader.js",
-    "Build/uncompressed.framework.js",
-    "Build/uncompressed.data",
-    "Build/uncompressed.wasm",
+    "Build/bin verwirrt.loader.js",
+    "Build/bin verwirrt.framework.js",
+    "Build/bin verwirrt.data",
+    "Build/bin verwirrt.wasm",
     "TemplateData/style.css"
 
 ];
