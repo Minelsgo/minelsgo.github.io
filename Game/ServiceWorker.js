@@ -1,9 +1,9 @@
 const cacheName = "RoboKitty-Verzweigungnen-0.0";
 const contentToCache = [
-    "Build/funtional joystick maybe.loader.js",
-    "Build/funtional joystick maybe.framework.js",
-    "Build/funtional joystick maybe.data",
-    "Build/funtional joystick maybe.wasm",
+    "Build/funtional joystick maybe diesmal wirklich.loader.js",
+    "Build/funtional joystick maybe diesmal wirklich.framework.js",
+    "Build/funtional joystick maybe diesmal wirklich.data",
+    "Build/funtional joystick maybe diesmal wirklich.wasm",
     "TemplateData/style.css"
 
 ];
